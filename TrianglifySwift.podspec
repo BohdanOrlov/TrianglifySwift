@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint TrianglifySwift.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'TrianglifySwift'
   s.version          = '0.1.0'
   s.summary          = 'A short description of TrianglifySwift.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Algorithmically generated triangle art. This library generates container view full of configurable triangles which are normal UIViews and can be animated.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TrianglifySwift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/BohdanOrlov/TrianglifySwift'
+  s.screenshots      = 'https://github.com/BohdanOrlov/TrianglifySwift/screenshots/screenshot.png', 'https://github.com/BohdanOrlov/TrianglifySwift/screencast.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Bohdan Orlov' => 'bohdan.orlov@corp.badoo.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TrianglifySwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Bohdan Orlov' => 'bohdan.orlov@gmail.com' }
+  s.source           = { :git => 'https://github.com/BohdanOrlov/TrianglifySwift.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/bohdan_orlov'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TrianglifySwift/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TrianglifySwift' => ['TrianglifySwift/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

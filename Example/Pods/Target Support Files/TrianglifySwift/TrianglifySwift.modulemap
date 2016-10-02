@@ -1,0 +1,6 @@
+framework module TrianglifySwift {
+  umbrella header "TrianglifySwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

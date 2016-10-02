@@ -1,0 +1,16 @@
+PODS:
+  - TrianglifySwift (0.1.0)
+
+DEPENDENCIES:
+  - TrianglifySwift (from `../`)
+
+EXTERNAL SOURCES:
+  TrianglifySwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrianglifySwift: feb40a4b082c0b3a3df25564749c08eedbe543d8
+
+PODFILE CHECKSUM: 9ef0bcbc600a17bbdc7af841c9b895c8377c79e5
+
+COCOAPODS: 1.0.1
