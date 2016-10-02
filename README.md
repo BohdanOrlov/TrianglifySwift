@@ -89,6 +89,20 @@ iOS 9+
 
 Swift 3
 
+## Carthage
+To use latest release add this to Cartfile:
+
+```ruby
+git "https://github.com/BohdanOrlov/TrianglifySwift"
+
+```
+Then run in terminal:
+
+```bash
+$ carthage update
+
+```
+
 ## CocoaPods
 TrianglifySwift is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
