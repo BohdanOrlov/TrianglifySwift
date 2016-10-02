@@ -5,8 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/TrianglifySwift.svg?style=flat)](http://cocoapods.org/pods/TrianglifySwift)
 
 Algorithmically generated triangle art:
-
-![](Screenshots/screenshot.png)
+<img src="Screenshots/screenshot.png" alt="Drawing" style="width: 720px;"/>
 ![](Screenshots/screencast.gif)
 
 # Quickstart
