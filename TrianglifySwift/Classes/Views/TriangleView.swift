@@ -44,7 +44,7 @@ open class TriangleView: UIView {
 
     open func styleTriangleLayer() {
         self.triangleLayer.fillColor = self.style.fillColorClosure(self).cgColor
-        self.triangleLayer.strokeColor = (self.style.strokeColorClosure(self) ?? self.style.fillColorClosure(self)).cgColor
+        self.triangleLayer.strokeColor = self.style.strokeColorClosure(self).cgColor
         self.triangleLayer.lineWidth = self.style.strokeLineWidth
         self.triangleLayer.backgroundColor = UIColor.clear.cgColor
     }
