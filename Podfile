@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'TrianglifySwift_Example' do
-  pod 'TrianglifySwift', :path => '../'
+  pod 'TrianglifySwift', :path => '.'
 
   target 'TrianglifySwift_Tests' do
     inherit! :search_paths

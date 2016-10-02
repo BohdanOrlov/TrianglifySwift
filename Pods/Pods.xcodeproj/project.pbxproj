@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B5ACA2C24A0198521AF3DE7FD10BE5D /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C54F1D1C296775F3F464CFAE68AA46 /* UIColor+Extensions.swift */; };
-		2E19688F6FDC3A3E3F3BB13D12765FEC /* TriangleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D3AD407B2E9C5D9257E78D115F3C1 /* TriangleContainer.swift */; };
-		310D3963F698B5C720C27E3042BCE397 /* DelaunaySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906077307A3CC970007F4BB53BA83BC /* DelaunaySwift.swift */; };
-		47A9DD7F8D869C699A93E945243EEBF9 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCADC2460C74A075C5AFF93870B07D0 /* Triangle.swift */; };
+		1B5ACA2C24A0198521AF3DE7FD10BE5D /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9EF91B00B9BA61E163EB2AE27E8BC /* UIColor+Extensions.swift */; };
+		2E19688F6FDC3A3E3F3BB13D12765FEC /* TriangleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA89E5D6130CA8BE0D77DB3F44EF7FA /* TriangleContainer.swift */; };
+		310D3963F698B5C720C27E3042BCE397 /* DelaunaySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E426C6BF40015ACBAB8DA23F3E3989 /* DelaunaySwift.swift */; };
+		47A9DD7F8D869C699A93E945243EEBF9 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B707C1418702B6F83DB82234C69302 /* Triangle.swift */; };
 		530CA4762A804129FCBAFAC3529D38C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		5AA33C14163A3A0DFA49B9206CD98CEE /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51BBF02E03515A2339E797C5691832C /* Edge.swift */; };
+		5AA33C14163A3A0DFA49B9206CD98CEE /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620C40CDE1FA929B3609B899C5D4D6B /* Edge.swift */; };
 		75781DB1CC4B6A8821E15363364A763A /* Pods-TrianglifySwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ADDC0FA727803BEEC771765B4D4951 /* Pods-TrianglifySwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80237ED3B371FB2C13AB68071964D760 /* TrianglifySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9979C0D141F02A5A1CB27B98146E0E6E /* TrianglifySwift-dummy.m */; };
+		80237ED3B371FB2C13AB68071964D760 /* TrianglifySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C990E92531D0439D11B3AFFA1AB87241 /* TrianglifySwift-dummy.m */; };
 		81A339687FF27495173CFF562932DEFF /* Pods-TrianglifySwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DE446712D451D78C672BD48CAF1D81 /* Pods-TrianglifySwift_Tests-dummy.m */; };
-		8A8FC0F34C1F10E44CC54264A02D8371 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA147BB515588D9E6EA1FCF804DC2E /* Vertex.swift */; };
+		8A8FC0F34C1F10E44CC54264A02D8371 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955D987A66CDE418A076842BBBC0911 /* Vertex.swift */; };
 		8F370D39DCDC5BF5C852391D37361F43 /* Pods-TrianglifySwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BCE564A3FF6519B3C24CB71ED725F4 /* Pods-TrianglifySwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B473C3A43F618E5F476E539285E028E /* VerticesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376B0835064FD2176BBB6B114B7A1A1 /* VerticesGenerator.swift */; };
-		9F3437391E5A61FD783CD0EDBF5914F8 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812210D802B8D9DA0A11554CBA027DD /* Foundation+Extensions.swift */; };
-		A0B5509E8D055E5E393C4E3B9CA453C8 /* TrianglifySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41459C805A3D3EF3B513BD43EDCBE6AA /* TrianglifySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A959E3476CE5B4C0FD6465CA241816BC /* CircumCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D1A68C36BABCB8D30A8375B041F83 /* CircumCircle.swift */; };
-		B10E80F1ABFF50DA2F1924B9B4FA1BF4 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16820A603FA414FE4B136FAC00FC86C8 /* Style.swift */; };
-		E1DA3E8A435CFE3EA57175F3FAA6C000 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4191623F8D3EFC0801C160214BF85D97 /* TriangleView.swift */; };
+		9B473C3A43F618E5F476E539285E028E /* VerticesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597D34C943D8FA43070C629CFD290EA /* VerticesGenerator.swift */; };
+		9F3437391E5A61FD783CD0EDBF5914F8 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4261EFC360146A1A969B6C041DB04D /* Foundation+Extensions.swift */; };
+		A0B5509E8D055E5E393C4E3B9CA453C8 /* TrianglifySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D1A6AC982C9D0BFA37E3C23770B334 /* TrianglifySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A959E3476CE5B4C0FD6465CA241816BC /* CircumCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988BCA5156B625B6DF1C13DA7961803 /* CircumCircle.swift */; };
+		B10E80F1ABFF50DA2F1924B9B4FA1BF4 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F16BC02B638F861C0F7E1DD07A1AF /* Style.swift */; };
+		E1DA3E8A435CFE3EA57175F3FAA6C000 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DB77D25B6B033B1173E2FC5767F1D /* TriangleView.swift */; };
 		ECAD8F5D11F14EDCB72B95F79D77BC4B /* Pods-TrianglifySwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E42BD34657CDE223EA8B70620D60 /* Pods-TrianglifySwift_Example-dummy.m */; };
 		F13C5B6BD41798D9BC7167894872A711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		F919A44FC02EDC18EFB9F3D0054A924F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -40,48 +40,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B3A04A91119C45CEF7B293B0E53876 /* TrianglifySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TrianglifySwift.modulemap; sourceTree = "<group>"; };
+		0597D34C943D8FA43070C629CFD290EA /* VerticesGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerticesGenerator.swift; sourceTree = "<group>"; };
 		05BE79B09B97A1D8FEE4D381ABF0868E /* Pods-TrianglifySwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrianglifySwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		08DE446712D451D78C672BD48CAF1D81 /* Pods-TrianglifySwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrianglifySwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		0D567AA8963B3822A99A85F4896BBC8D /* Pods-TrianglifySwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TrianglifySwift_Example.modulemap"; sourceTree = "<group>"; };
 		140B9C713A714C84A53518B1D12A922F /* Pods-TrianglifySwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrianglifySwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		16820A603FA414FE4B136FAC00FC86C8 /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		19ADDC0FA727803BEEC771765B4D4951 /* Pods-TrianglifySwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrianglifySwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		209F9420CB0D1F64860086740116D01F /* TrianglifySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TrianglifySwift.modulemap; sourceTree = "<group>"; };
-		2DCADC2460C74A075C5AFF93870B07D0 /* Triangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		2E4261EFC360146A1A969B6C041DB04D /* Foundation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
+		37A9EF91B00B9BA61E163EB2AE27E8BC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		38D9F1BD844AC3BE680C0DA43991FCA0 /* Pods_TrianglifySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrianglifySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41459C805A3D3EF3B513BD43EDCBE6AA /* TrianglifySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrianglifySwift-umbrella.h"; sourceTree = "<group>"; };
-		4191623F8D3EFC0801C160214BF85D97 /* TriangleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		3988BCA5156B625B6DF1C13DA7961803 /* CircumCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircumCircle.swift; sourceTree = "<group>"; };
+		42D1A6AC982C9D0BFA37E3C23770B334 /* TrianglifySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrianglifySwift-umbrella.h"; sourceTree = "<group>"; };
 		4B9EFF5FF584A5F76520BD31ACC6BE83 /* Pods-TrianglifySwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrianglifySwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C5BF5918BF8DB764E99EED069719D0E /* Pods-TrianglifySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglifySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4FE1E42BD34657CDE223EA8B70620D60 /* Pods-TrianglifySwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrianglifySwift_Example-dummy.m"; sourceTree = "<group>"; };
 		549AD74645E9AA8E380CCFBAFAEDA3FF /* Pods-TrianglifySwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglifySwift_Tests-resources.sh"; sourceTree = "<group>"; };
-		5DDA147BB515588D9E6EA1FCF804DC2E /* Vertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
-		60A46A4F7C67EE66EF515F4E4659C684 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66C3C6DC0D81D29B6A087151C174EE80 /* Pods-TrianglifySwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglifySwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		70BCE564A3FF6519B3C24CB71ED725F4 /* Pods-TrianglifySwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrianglifySwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7560FEBCB9C3987C5092E868F845082A /* Pods-TrianglifySwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrianglifySwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E4D1A68C36BABCB8D30A8375B041F83 /* CircumCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircumCircle.swift; sourceTree = "<group>"; };
 		8235F2238F454339AA25D34490133694 /* Pods-TrianglifySwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglifySwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8325156EF50C9D454D0214A48D12B2C5 /* Pods-TrianglifySwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TrianglifySwift_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9403697B797CBA0C85C737994AFE012F /* TrianglifySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrianglifySwift-prefix.pch"; sourceTree = "<group>"; };
 		950471A24135EB937327F43FAC001307 /* Pods_TrianglifySwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrianglifySwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9979C0D141F02A5A1CB27B98146E0E6E /* TrianglifySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrianglifySwift-dummy.m"; sourceTree = "<group>"; };
 		99D25B05195B92C93558C0F1BE495910 /* Pods-TrianglifySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglifySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B199428A3D9A14C95A3B4A7D08135AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A906077307A3CC970007F4BB53BA83BC /* DelaunaySwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DelaunaySwift.swift; sourceTree = "<group>"; };
+		9DA89E5D6130CA8BE0D77DB3F44EF7FA /* TriangleContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TriangleContainer.swift; sourceTree = "<group>"; };
+		A9B707C1418702B6F83DB82234C69302 /* Triangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		AAC6D8CDD54EF75E527612ED0EA72140 /* Pods-TrianglifySwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglifySwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B1C54F1D1C296775F3F464CFAE68AA46 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		B31DB77D25B6B033B1173E2FC5767F1D /* TriangleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		BB8BAA76B769FA164D30DABDD3F5BDEC /* Pods-TrianglifySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglifySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C03F16BC02B638F861C0F7E1DD07A1AF /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		C2E426C6BF40015ACBAB8DA23F3E3989 /* DelaunaySwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DelaunaySwift.swift; sourceTree = "<group>"; };
+		C990E92531D0439D11B3AFFA1AB87241 /* TrianglifySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrianglifySwift-dummy.m"; sourceTree = "<group>"; };
 		CB00354221446D52B0250CE63065E97F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E376B0835064FD2176BBB6B114B7A1A1 /* VerticesGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerticesGenerator.swift; sourceTree = "<group>"; };
-		E78D3AD407B2E9C5D9257E78D115F3C1 /* TriangleContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TriangleContainer.swift; sourceTree = "<group>"; };
-		E83A718442E780FB39C77EFA843B0135 /* TrianglifySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrianglifySwift.xcconfig; sourceTree = "<group>"; };
+		D620C40CDE1FA929B3609B899C5D4D6B /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		D66D4CD7B94565F7DBDB58B7B4BA7A3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC37E4C1B270FD3B9482EFA224D7CD4D /* Pods-TrianglifySwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglifySwift_Example-resources.sh"; sourceTree = "<group>"; };
-		F51BBF02E03515A2339E797C5691832C /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		F2DC4393449AA8EFE3B22E476D0E4B66 /* TrianglifySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrianglifySwift.xcconfig; sourceTree = "<group>"; };
 		F6BB3F59517AFC4B9FA33B15BF2B6332 /* TrianglifySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrianglifySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F812210D802B8D9DA0A11554CBA027DD /* Foundation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
+		F955D987A66CDE418A076842BBBC0911 /* Vertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		FDFB4F3B7D15D8BC6E88533F3D577905 /* TrianglifySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrianglifySwift-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +112,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02DEAC3A4BFF3AA557E78C77E32A045D /* ThirdParty */ = {
+		0246E8F05BB6FB3FD273E81F3CFE1120 /* Styling */ = {
 			isa = PBXGroup;
 			children = (
-				F0C6765AFFABDAF00A17D2D0BD209CAC /* Triangulation */,
+				C03F16BC02B638F861C0F7E1DD07A1AF /* Style.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		087BE51082BB242B5D23226DD692A683 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66D4CD7B94565F7DBDB58B7B4BA7A3B /* Info.plist */,
+				02B3A04A91119C45CEF7B293B0E53876 /* TrianglifySwift.modulemap */,
+				F2DC4393449AA8EFE3B22E476D0E4B66 /* TrianglifySwift.xcconfig */,
+				C990E92531D0439D11B3AFFA1AB87241 /* TrianglifySwift-dummy.m */,
+				FDFB4F3B7D15D8BC6E88533F3D577905 /* TrianglifySwift-prefix.pch */,
+				42D1A6AC982C9D0BFA37E3C23770B334 /* TrianglifySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/TrianglifySwift";
+			sourceTree = "<group>";
+		};
+		0C6B3BFE57C541B4C616408F28802E11 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C0F42070DF67E9E84B61DF70D5194 /* Triangulation */,
 			);
 			path = ThirdParty;
 			sourceTree = "<group>";
@@ -146,14 +168,6 @@
 			path = "Target Support Files/Pods-TrianglifySwift_Example";
 			sourceTree = "<group>";
 		};
-		42942AA7641A75A2F952EA732F48FD9E /* VerticesGeneration */ = {
-			isa = PBXGroup;
-			children = (
-				E376B0835064FD2176BBB6B114B7A1A1 /* VerticesGenerator.swift */,
-			);
-			path = VerticesGeneration;
-			sourceTree = "<group>";
-		};
 		501A811D1E1E6FA6FC699F808ED3478E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,26 +178,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A589689DD2FB7C3307672133B15C3D4 /* Support Files */ = {
+		56CEE0428BF29F44A9033F24459A586B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				60A46A4F7C67EE66EF515F4E4659C684 /* Info.plist */,
-				209F9420CB0D1F64860086740116D01F /* TrianglifySwift.modulemap */,
-				E83A718442E780FB39C77EFA843B0135 /* TrianglifySwift.xcconfig */,
-				9979C0D141F02A5A1CB27B98146E0E6E /* TrianglifySwift-dummy.m */,
-				9403697B797CBA0C85C737994AFE012F /* TrianglifySwift-prefix.pch */,
-				41459C805A3D3EF3B513BD43EDCBE6AA /* TrianglifySwift-umbrella.h */,
+				2E4261EFC360146A1A969B6C041DB04D /* Foundation+Extensions.swift */,
+				37A9EF91B00B9BA61E163EB2AE27E8BC /* UIColor+Extensions.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TrianglifySwift";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		61B47AE04FDBAF51F8BEAB552D5A6ADA /* TrianglifySwift */ = {
+		6A272B2B117A07F1C3707CD6C1977F6E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D11D7DAD1354CF65885236252D98A791 /* Classes */,
+				56CEE0428BF29F44A9033F24459A586B /* Extensions */,
+				0246E8F05BB6FB3FD273E81F3CFE1120 /* Styling */,
+				0C6B3BFE57C541B4C616408F28802E11 /* ThirdParty */,
+				6FB56FC7D710FCA2F6866F19C5C246D9 /* VerticesGeneration */,
+				C88D64BE7C2E2F0B8B9DBB674DD7B397 /* Views */,
 			);
-			path = TrianglifySwift;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6FB56FC7D710FCA2F6866F19C5C246D9 /* VerticesGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				0597D34C943D8FA43070C629CFD290EA /* VerticesGenerator.swift */,
+			);
+			path = VerticesGeneration;
 			sourceTree = "<group>";
 		};
 		78092C389DCBFBF556EAD246518BF847 /* Targets Support Files */ = {
@@ -195,25 +216,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		79087013A2B5EAAF0A6E7B201A4669F0 /* LibSources */ = {
+			isa = PBXGroup;
+			children = (
+				6A272B2B117A07F1C3707CD6C1977F6E /* Classes */,
+			);
+			path = LibSources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F46B82E02AEF7021791C37DAC4A038ED /* Development Pods */,
+				95EAC8DC73359A4521FC3DF7A8293C75 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				501A811D1E1E6FA6FC699F808ED3478E /* Products */,
 				78092C389DCBFBF556EAD246518BF847 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		97A40B27BA78289024E134B2D46AA0B1 /* TrianglifySwift */ = {
+		7F5C0F42070DF67E9E84B61DF70D5194 /* Triangulation */ = {
 			isa = PBXGroup;
 			children = (
-				5A589689DD2FB7C3307672133B15C3D4 /* Support Files */,
-				61B47AE04FDBAF51F8BEAB552D5A6ADA /* TrianglifySwift */,
+				3988BCA5156B625B6DF1C13DA7961803 /* CircumCircle.swift */,
+				C2E426C6BF40015ACBAB8DA23F3E3989 /* DelaunaySwift.swift */,
+				D620C40CDE1FA929B3609B899C5D4D6B /* Edge.swift */,
+				A9B707C1418702B6F83DB82234C69302 /* Triangle.swift */,
+				F955D987A66CDE418A076842BBBC0911 /* Vertex.swift */,
+			);
+			path = Triangulation;
+			sourceTree = "<group>";
+		};
+		852059A010CBB3DD5109F847A7F50173 /* TrianglifySwift */ = {
+			isa = PBXGroup;
+			children = (
+				79087013A2B5EAAF0A6E7B201A4669F0 /* LibSources */,
+				087BE51082BB242B5D23226DD692A683 /* Support Files */,
 			);
 			name = TrianglifySwift;
-			path = ../..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		95EAC8DC73359A4521FC3DF7A8293C75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				852059A010CBB3DD5109F847A7F50173 /* TrianglifySwift */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		99B97A7118671B91D3BEEBE2083F280F /* Pods-TrianglifySwift_Tests */ = {
@@ -242,60 +291,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF1848E21598A43B1F0F0C3621E94E68 /* Extensions */ = {
+		C88D64BE7C2E2F0B8B9DBB674DD7B397 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F812210D802B8D9DA0A11554CBA027DD /* Foundation+Extensions.swift */,
-				B1C54F1D1C296775F3F464CFAE68AA46 /* UIColor+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		D11D7DAD1354CF65885236252D98A791 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BF1848E21598A43B1F0F0C3621E94E68 /* Extensions */,
-				D88BFA4A8B11F7BA0D59EBAD664B5F13 /* Styling */,
-				02DEAC3A4BFF3AA557E78C77E32A045D /* ThirdParty */,
-				42942AA7641A75A2F952EA732F48FD9E /* VerticesGeneration */,
-				FB8A767C6784338283DCCB9AFDAFF6F5 /* Views */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		D88BFA4A8B11F7BA0D59EBAD664B5F13 /* Styling */ = {
-			isa = PBXGroup;
-			children = (
-				16820A603FA414FE4B136FAC00FC86C8 /* Style.swift */,
-			);
-			path = Styling;
-			sourceTree = "<group>";
-		};
-		F0C6765AFFABDAF00A17D2D0BD209CAC /* Triangulation */ = {
-			isa = PBXGroup;
-			children = (
-				7E4D1A68C36BABCB8D30A8375B041F83 /* CircumCircle.swift */,
-				A906077307A3CC970007F4BB53BA83BC /* DelaunaySwift.swift */,
-				F51BBF02E03515A2339E797C5691832C /* Edge.swift */,
-				2DCADC2460C74A075C5AFF93870B07D0 /* Triangle.swift */,
-				5DDA147BB515588D9E6EA1FCF804DC2E /* Vertex.swift */,
-			);
-			path = Triangulation;
-			sourceTree = "<group>";
-		};
-		F46B82E02AEF7021791C37DAC4A038ED /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				97A40B27BA78289024E134B2D46AA0B1 /* TrianglifySwift */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FB8A767C6784338283DCCB9AFDAFF6F5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E78D3AD407B2E9C5D9257E78D115F3C1 /* TriangleContainer.swift */,
-				4191623F8D3EFC0801C160214BF85D97 /* TriangleView.swift */,
+				9DA89E5D6130CA8BE0D77DB3F44EF7FA /* TriangleContainer.swift */,
+				B31DB77D25B6B033B1173E2FC5767F1D /* TriangleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -604,7 +604,7 @@
 		};
 		7C7F4A3592E5A7DCDD78161CFDBB0C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E83A718442E780FB39C77EFA843B0135 /* TrianglifySwift.xcconfig */;
+			baseConfigurationReference = F2DC4393449AA8EFE3B22E476D0E4B66 /* TrianglifySwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -635,7 +635,7 @@
 		};
 		8FB71CEC38D87A181745D66F0FAAC790 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E83A718442E780FB39C77EFA843B0135 /* TrianglifySwift.xcconfig */;
+			baseConfigurationReference = F2DC4393449AA8EFE3B22E476D0E4B66 /* TrianglifySwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

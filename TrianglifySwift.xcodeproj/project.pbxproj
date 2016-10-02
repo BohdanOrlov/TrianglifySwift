@@ -45,6 +45,8 @@
 		76E383A90D73A5453AA784B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A9A6950ECE8555F942E7DB8 /* Pods-TrianglifySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrianglifySwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrianglifySwift_Example/Pods-TrianglifySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9F077BB91BFFED56199F05F4 /* Pods_TrianglifySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrianglifySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D268E2D91DA1811E00E0C67A /* TrianglifySwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrianglifySwiftFramework.h; sourceTree = "<group>"; };
+		D268E2DA1DA1811E00E0C67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C6DD9D1D9D7E6A00DAE868 /* DemoTrianglesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTrianglesView.swift; sourceTree = "<group>"; };
 		D4D8C93A4D5D33685B10920A /* Pods-TrianglifySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrianglifySwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrianglifySwift_Tests/Pods-TrianglifySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TrianglifySwift */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				D268E2D81DA1811E00E0C67A /* TrianglifySwiftFramework */,
 				607FACD11AFB9204008FA782 /* Products */,
 				2C423FAF309D97E756BC2DE4 /* Pods */,
 				3B5680C1FAD437336981519A /* Frameworks */,
@@ -157,6 +160,15 @@
 				1F2FE10A040119597A8B50E6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D268E2D81DA1811E00E0C67A /* TrianglifySwiftFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D268E2D91DA1811E00E0C67A /* TrianglifySwiftFramework.h */,
+				D268E2DA1DA1811E00E0C67A /* Info.plist */,
+			);
+			path = TrianglifySwiftFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
